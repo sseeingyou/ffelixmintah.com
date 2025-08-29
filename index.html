@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Felix Mintah | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
   
+  <!-- Prevent Zooming and Draggable Images -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <!-- Yu Gothic Font-->
   <script>
   (function(d) {
@@ -33,9 +34,10 @@
   </header>
 
 
-  <!-- Hero Section (Book) -->
+  <!-- HERO SECTION BOOK -->
+      <!-- Netizens -->
 <section class="hero">
-  <h2 class="hero-header">Book</h2>
+  <h2 class="section-header">Book</h2>
   <div class="hero-top">
     <div class="hero-text">
       <h2>Netizens</h2>
@@ -50,11 +52,11 @@ Contributors - Solenne Palmer,
 <br /> 
 Antonia Marianna, Lina Hiou
 
-.</p>
+</p>
     </div>
     <div class="hero-image">
       <img src="assets/netizens1.png" alt="Your portrait" />
-      <div class="hero-caption">40 page broadsheet - 55gsm - 820 x 608</div>
+      <div class="hero-caption">40 page broadsheet - 55gsm - 148 x 210 mm</div>
 </div>
     </div>
   </div>
@@ -70,10 +72,10 @@ Antonia Marianna, Lina Hiou
 </div>
 </section>
 
-  <!-- Video Section -->
+  <!-- VIDEO SECTION -->
    <!-- Cero Magazine -->
 <section class="hero">
-  <h2 class="hero-header">Video</h2>
+  <h2 class="section-header">Video</h2>
   <div class="hero-top">
     <div class="hero-text">
       <h2 class="video-title">Cero Magazine Digital Cover</h2>
@@ -89,10 +91,19 @@ Photographed and Directed by Jake Axler.
       <div class="hero-caption">Image by Jake Axler</div>  
     </div>
   </div>
-  <div class="hero-images-row2">
-    <img src="assets/CeroVid1.mp4" alt="Image 1" />
-    <img src="assets/CeroVid2.mp4" alt="Image 2" />
-    <img src="assets/CeroVid3.mp4" alt="Image 3" />
+  <div class="cero-videos">
+    <video autoplay loop muted playsinline>
+  <source src="assets/CeroVid1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+    <video autoplay loop muted playsinline>
+  <source src="assets/CeroVid2.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+    <video autoplay loop muted playsinline>
+  <source src="assets/CeroVid3.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
   </div>
 </section>  
 
@@ -118,7 +129,7 @@ Photographed and Directed by Jake Axler.
       <h2>contact</h2>
       <p>ffelixmintah@gmail.com</p>
     </div>
-    <img class="footer-bg" src="assets/bluefooterbird.PNG" alt="Footer background" />
+    <img class="footer-bg" src="assets/greyfooterbird.png" alt="Footer background" />
   </footer>
 
   <script src="script.js"></script>
